@@ -64,6 +64,9 @@ button {
 .content2 {
     flex-direction: column;
     align-items: center;
+    padding-top: 25px;
+    padding-bottom: 125px;
+    gap: 25px;
 }
 
 .content2-slideshow {
@@ -89,6 +92,23 @@ button {
 
 }
 
+.content3 {
+    padding: 200px 180px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.author {
+    font-size: 24px;
+    align-self: flex-end;
+    font-weight: bold;
+}
 p {
     color: #E5E7EB;
     font-size: 18px;
