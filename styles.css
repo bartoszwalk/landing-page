@@ -5,6 +5,15 @@ body {
     margin: 0px;
 }
 
+.header 
+.content1
+.content2
+.content3
+.content4
+.footer{
+    display: flex;
+}
+
 .header {
     background: #1f2937;
     display: flex;
@@ -36,4 +45,51 @@ a {
     text-decoration: none;
     font-size: 18px;
     
+}
+button {
+    height: 35px;
+    width: 100px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    border: none;
+    color: white
+}
+.content1 {
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 150px;
+    gap: 50px;
+
+}
+
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.hero {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder
+}
+
+.left-content1 {
+    gap: 4px;
+    padding: 50px, 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.img1 {
+    background-color: #8f8f8f;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 450px;
+    flex-shrink: 0;
 }
