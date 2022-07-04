@@ -14,14 +14,21 @@ body {
     display: flex;
 }
 
-.header {
+.header,
+.footer {
     background: #1f2937;
     height: 72px;
     padding: 0px 96px;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+}
 
+.header {
+    justify-content: space-between;
+}
+
+.footer {
+    justify-content: center;
 }
 
 .header-logo {
@@ -51,7 +58,8 @@ button {
     background-color: #3882F6;
     border-radius: 6px;
     border: none;
-    color: white
+    color: white;
+    font-weight: bold;
 }
 .content1 {
     background: #1f2937;
@@ -93,11 +101,37 @@ button {
 }
 
 .content3 {
-    padding: 200px 180px;
+    padding: 125px 180px;
     background-color: #E5E7EB;
     flex-direction: column;
 }
 
+.content4 {
+    justify-content: center;
+    align-items: center;
+    padding: 100px 75px;
+
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    width: 1000px;
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 4px;
+}
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
+.call-to-action-head {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
 .quote-text {
     font-size: 36px;
     font-style: italic;
